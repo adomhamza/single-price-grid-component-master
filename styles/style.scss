@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+:root {
+  --cyan: hsl(179, 62%, 43%);
+  --yellow: hsl(71, 73%, 54%);
+  --gray: hsl(204, 43%, 93%);
+  --grayblue: hsl(218, 22%, 67%);
+  --lightcyan: #4abebd;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Karla";
+  background-color: #e6eff6;
+  max-width: 1440px;
+  width: auto;
+}
+
+.container {
+  margin: 10% auto;
+  min-width: 635px;
+  width: 40vw;
+  height: 469px;
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  overflow: hidden;
+}
+// h1 {
+//   color: hsl(204, 43%, 93%);
+//   font-weight: 400;
+// }
+// .center {
+//   display: flex;
+//   //flex-direction: column;
+//   //border: 5px solid black;
+
+//   position: absolute;
+//   width: 635px;
+//   height: 469px;
+//   left: 400px;
+//   top: 200px;
+//   backdrop-filter: blur(4px);
+// }
+.community {
+  //   border-top-left-radius: 10px;
+  //   border-top-right-radius: 10px;
+  //   width: 635px;
+  //   height: 213px;
+  grid-column: span 2;
+  background-color: #fff;
+}
+.subscription {
+  //   flex-direction: row;
+  //   width: 317px;
+  //   height: 256px;
+  background-color: var(--cyan);
+}
+.us {
+  //   position: absolute;
+  //   width: 318px;
+  //   height: 256px;
+  //   left: 717px;
+  //   top: 413px;
+  background-color: var(--lightcyan);
+}
